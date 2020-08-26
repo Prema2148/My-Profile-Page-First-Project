@@ -101,7 +101,7 @@ header .profile-image:hover {
   box-sizing: border-box;
 }
 .card:hover {
-  border-color: blueviolet;
+  border-color: pink;
 }
 
 ul.skills {
