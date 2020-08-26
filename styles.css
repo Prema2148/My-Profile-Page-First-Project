@@ -242,6 +242,30 @@ article .interest-image {
 
 /*Interests Page Customizations Ends*/
 
+/*Contacts Page Customizations Starts*/
+
+.contacts-header {
+  text-align: center;
+  background: url('images/Contacts.jpeg') no-repeat top center;
+  background-size: contain;
+  overflow: hidden;
+  padding-top: 60px;
+  min-height: 400px;
+  color: white;
+}
+
+.contacts-nav {
+  width: 100%;
+  height: 40px;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: right;
+}
+
+/*Contacts Page Customizations Ends*/
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
