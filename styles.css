@@ -247,11 +247,27 @@ article .interest-image {
 .contacts-header {
   text-align: center;
   background: url('images/Contacts.jpeg') no-repeat top center;
-  background-size: contain;
+  background-size: cover;
   overflow: hidden;
   padding-top: 60px;
   min-height: 400px;
   color: white;
+}
+
+.contacts-main{
+  margin: 30px;
+  padding: 20px 40px 40px;
+  width: 1200px;
+  float: left;
+  margin-left: 25px;
+  margin-right: 50px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  box-sizing: border-box;
+  font-size: 18px;
 }
 
 .contacts-nav {
@@ -263,6 +279,7 @@ article .interest-image {
   position: fixed;
   text-align: right;
 }
+
 
 /*Contacts Page Customizations Ends*/
 
